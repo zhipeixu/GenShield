@@ -1,0 +1,47 @@
+# Configuration for anomaly repair training (Stage 1 New) - Combined Tasks
+# Task 1: SynthScars - Anomaly Repair (caption as input, repaired image as output)
+# Task 2: AIGI-Holmes - AI Image Detection (VLM task, text only)
+# Sampling ratio: 1:1
+
+# ============ Task 1: Anomaly Repair (SynthScars) ============
+# Input: anomaly image + caption (anomaly description)
+# Output: repaired image (MSE loss only)
+correction_stage1:
+  dataset_names:
+  - synthscars
+  image_transform_args:
+    image_stride: 16
+    max_image_size: 1024
+    min_image_size: 512
+  vit_image_transform_args:
+    image_stride: 14
+    max_image_size: 518
+    min_image_size: 224
+  is_mandatory: true
+  shuffle_lines: true
+  shuffle_seed: 42
+  num_used_data:
+  - 11184
+  weight: 5
+
+
+# ============ Task 2: AI Image Detection (AIGI-Holmes) ============
+# Input: system prompt + image (VIT) + query
+# Output: detection result + analysis (CE loss only, no image generation)
+aigi_detection:
+  dataset_names:
+  - aigi_holmes
+  image_transform_args:
+    image_stride: 14
+    max_image_size: 980
+    min_image_size: 378
+    max_pixels: 2_007_040
+  frame_sampler_args:
+    max_num_frames: 12
+    min_num_frames: 8
+  is_mandatory: true
+  shuffle_lines: true
+  shuffle_seed: 42
+  num_used_data:
+  - 64997
+  weight: 1
