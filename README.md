@@ -1,7 +1,7 @@
 <div align="center">
 <img src="./assets/logo.png" alt="GenShield Logo" width="600" height="150">
 <h3> GenShield: Unified Detection and Artifact Correction for AI-Generated Images </h3>
-<h4> ICML 2026 </h4>
+<h4> 🔥 ICML 2026 </h4>
 
 Zhipei Xu<sup>1,\*</sup>,
 Xuanyu Zhang<sup>1,\*</sup>,
