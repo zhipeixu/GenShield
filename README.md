@@ -3,19 +3,17 @@
 <h3> GenShield: Unified Detection and Artifact Correction for AI-Generated Images </h3>
 <h4> ICML 2026 </h4>
 
-Zhipei Xu<sup>1,2,\*,†</sup>,
+Zhipei Xu<sup>1,\*</sup>,
 Xuanyu Zhang<sup>1,\*</sup>,
 Youmin Xu<sup>2,\*</sup>,
 Qing Huang<sup>1</sup>,
-Shen Chen<sup>2,‡</sup>,
+Shen Chen<sup>2</sup>,
 Taiping Yao<sup>2</sup>,
 Shouhong Ding<sup>2</sup>,
-Jian Zhang<sup>1,✉</sup>
+Jian Zhang<sup>1</sup>
 
 <sup>1</sup> School of Electronic and Computer Engineering, Peking University &nbsp;&nbsp;
 <sup>2</sup> Tencent Youtu Lab
-
-<sub><sup>*</sup> Equal contribution.&nbsp; <sup>†</sup> Work done during internship at Tencent Youtu Lab.&nbsp; <sup>‡</sup> Project Leader.&nbsp; <sup>✉</sup> Corresponding author.</sub>
 
 
 <!-- TODO(user): fill in arXiv ID once available -->
