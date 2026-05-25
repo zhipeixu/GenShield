@@ -207,8 +207,5 @@ If you find GenShield useful for your research, please consider citing:
 GenShield is built on top of the excellent open-source efforts of the community. We sincerely thank:
 
 - [**BAGEL**](https://github.com/bytedance-seed/BAGEL) — the Mixture-of-Transformers backbone we adopt and extend.
-- [**SynthScars / LEGION**](https://github.com/opendatalab/LEGION) — anomaly annotations used to construct `GenShield-Set-Correct`.
-- [**Holmes-Set / AIGI-Holmes**](https://github.com/wyczzy/AIGI-Holmes) — detection annotations used to construct `GenShield-Set-Detect`.
-
-This project is released under the [Apache 2.0 License](./LICENSE), inheriting from the BAGEL upstream license.
-
+- [**LEGION**](https://github.com/opendatalab/LEGION) — anomaly annotations used to construct `GenShield-Set-Correct`.
+- [**AIGI-Holmes**](https://github.com/wyczzy/AIGI-Holmes) — detection annotations used to construct `GenShield-Set-Detect`.
